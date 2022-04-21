@@ -101,7 +101,7 @@ const Account = ({ session }) => {
           </div>
         </form>
       )}
-      <button type="button" className="button block" onClick={() => supabase.auth.signOut()}>
+      <button type="button" className="button block primary" onClick={() => supabase.auth.signOut()}>
         Sign Out
       </button>
     </div>
