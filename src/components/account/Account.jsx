@@ -305,7 +305,7 @@ export default function Account({ session }) {
                 <label htmlFor="idfield">id</label>
                 <input id="idfield" type="text" onChange={(e) => setDateID(e.target.value)} />
 
-                <button className="button primary block" onClick={() => getRecord()}>{i18next.t("button4")}</button>
+                <button className="button primary block" onClick="//src/components/dates/Dates.jsx">{i18next.t("button4")}</button>
             </div>
 
             <button
