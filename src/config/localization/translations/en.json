@@ -10,7 +10,7 @@
     "button2":"Update",
     "button3":"Sign out",
     "title2":"HOME",
-    "paragraph1":"To use the crud, the following recommendations must be taken: to insert a new dat, the 'Search by ID' field must be empty, not ' ' totally empty, and click on new date, to search it will be searched by ID and click on 'Search by ID', if it finds data with the provided ID, these will be assigned to their corresponding fields and you can modify the information by clicking on the Save changes button, if what you want is to delete, just search by ID and it will be enabled the delete button.",
+    "paragraph1":"To use the crud, the following recommendations must be taken: to insert a new dat, the 'Search by ID' field must be empty",
     "titletable":"Medical Date",
     "heaer1":"Title",
     "header2":"Description",

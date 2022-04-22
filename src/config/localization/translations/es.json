@@ -10,6 +10,7 @@
     "button2":"Actualizar",
     "button2v2":"Cargando",
     "button3":"Cerrar Sesión",
+    "paragraph1":"Para usar el crud, se deben tomar las siguientes recomendaciones: para insertar un nuevo dat, el campo 'Buscar por ID' debe estar vacío",
     "titletable":"Cita Medica",
     "heaer1":"Título",
     "header2":"Contenido",
@@ -30,5 +31,4 @@
     "record3":"Contenido:",
     "record4":"Fecha de la cita:",
     "record5":"Fecha de reservación:"
-
 }
