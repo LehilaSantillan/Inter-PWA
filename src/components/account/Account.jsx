@@ -299,7 +299,7 @@ export default function Account({ session }) {
 
             <div>
                 <label htmlFor="creationDate">Fecha de creacion</label>
-                <input id="creationDate" type="text" value={creationDate} onChange={(e) => setCreationDate(e.target.value)} disabled={true}/>
+                <input id="creationDate" type="text" value={creationDate} onChange={(e) => setCreationDate(e.target.value)}/>
             </div>
             <div >
                 <label htmlFor="idfield">id</label>
