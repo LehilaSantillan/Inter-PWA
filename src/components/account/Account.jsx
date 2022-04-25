@@ -2,7 +2,7 @@ import i18next from 'i18next';
 import { useState, useEffect } from 'react';
 import Avatar from "../avatar";
 import { supabase } from '../../config/supabase';
-import React, { Component }  from 'react';
+//import React, { Component }  from 'react';
 
 export default function Account({ session }) {
     const [loading, setLoading] = useState(true)
