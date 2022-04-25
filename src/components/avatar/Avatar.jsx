@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../../config/supabase'
 import i18next from '../../config/localization/i18n';
-import React, { Component }  from 'react';
+
 
 export default function Avatar({ url, size, onUpload }) {
     const [avatarUrl, setAvatarUrl] = useState(null)

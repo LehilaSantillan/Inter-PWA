@@ -2,7 +2,7 @@ import i18next from 'i18next';
 import { useState, useEffect } from 'react';
 import Avatar from "../avatar";
 import { supabase } from '../../config/supabase';
-import React, { Component }  from 'react';
+
 
 export default function Account({ session }) {
     const [loading, setLoading] = useState(true)
@@ -195,31 +195,31 @@ export default function Account({ session }) {
         }
     }
 
-    async function getRecord() {
-        try {
+    // async function getRecord() {
+    //     try {
 
-            let { data, error, status } = await supabase
-                .from('dates')
-                .select(`*`)
-                .eq('id', dateID)
-                .single()
+    //         let { data, error, status } = await supabase
+    //             .from('dates')
+    //             .select(`*`)
+    //             .eq('id', dateID)
+    //             .single()
 
-            if (error && status !== 406) {
-                throw error
-            }
+    //         if (error && status !== 406) {
+    //             throw error
+    //         }
 
-            if (data) {
-                setTitle(data.title);
-                setCDescription(data.description);
-                setRecordDate(data.remind_date);
-                setCreationDate(data.created_at);
-            }
-        } catch (error) {
-            alert(error.message)
-        } finally {
+    //         if (data) {
+    //             setTitle(data.title);
+    //             setCDescription(data.description);
+    //             setRecordDate(data.remind_date);
+    //             setCreationDate(data.created_at);
+    //         }
+    //     } catch (error) {
+    //         alert(error.message)
+    //     } finally {
 
-        }
-    }
+    //     }
+    // }
 
     function changeLanguage(){
         let actual=localStorage.getItem('i18nextLng')
